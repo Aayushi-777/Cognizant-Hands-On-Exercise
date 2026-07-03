@@ -1,0 +1,24 @@
+CREATE OR REPLACE FUNCTION CalculateAge
+(
+    p_DOB DATE
+)
+RETURN NUMBER
+IS
+    v_Age NUMBER;
+BEGIN
+    v_Age:=FLOOR(MONTHS_BETWEEN(SYSDATE,p_DOB)/12);
+    RETURN v_Age;
+END;
+/
+
+SET SERVEROUTPUT ON;
+DECLARE
+    v_Age NUMBER;
+BEGIN
+    SELECT CalculateAge(DOB)
+    INTO v_Age
+    FROM Customers
+    WHERE CustomerID=1;
+    DBMS_OUTPUT.PUT_LINE('Age = '||v_Age);
+END;
+/

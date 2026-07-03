@@ -1,0 +1,186 @@
+INSERT INTO Customers
+VALUES
+(
+1,
+'John Doe',
+TO_DATE('1985-05-15','YYYY-MM-DD'),
+12000,
+'N',
+SYSDATE
+);
+
+INSERT INTO Customers
+VALUES
+(
+2,
+'Jane Smith',
+TO_DATE('1990-07-20','YYYY-MM-DD'),
+15000,
+'N',
+SYSDATE
+);
+
+INSERT INTO Customers
+VALUES
+(
+3,
+'Robert Brown',
+TO_DATE('1955-10-12','YYYY-MM-DD'),
+25000,
+'N',
+SYSDATE
+);
+
+INSERT INTO Customers
+VALUES
+(
+4,
+'Emily Davis',
+TO_DATE('1960-08-18','YYYY-MM-DD'),
+8000,
+'N',
+SYSDATE
+);
+
+INSERT INTO Customers
+VALUES
+(
+5,
+'Michael Wilson',
+TO_DATE('1978-12-30','YYYY-MM-DD'),
+20000,
+'N',
+SYSDATE
+);
+
+INSERT INTO Accounts VALUES
+(101,1,'Savings',12000,SYSDATE);
+
+INSERT INTO Accounts VALUES
+(102,2,'Checking',15000,SYSDATE);
+
+INSERT INTO Accounts VALUES
+(103,3,'Savings',25000,SYSDATE);
+
+INSERT INTO Accounts VALUES
+(104,4,'Checking',8000,SYSDATE);
+
+INSERT INTO Accounts VALUES
+(105,5,'Savings',20000,SYSDATE);
+
+INSERT INTO Transactions VALUES
+(1,101,SYSDATE-5,1000,'Deposit');
+
+INSERT INTO Transactions VALUES
+(2,102,SYSDATE-4,500,'Withdrawal');
+
+INSERT INTO Transactions VALUES
+(3,103,SYSDATE-3,2000,'Deposit');
+
+INSERT INTO Transactions VALUES
+(4,104,SYSDATE-2,400,'Withdrawal');
+
+INSERT INTO Transactions VALUES
+(5,105,SYSDATE-1,1500,'Deposit');
+
+INSERT INTO Loans VALUES
+(
+1,
+1,
+50000,
+8,
+SYSDATE,
+SYSDATE+20
+);
+
+INSERT INTO Loans VALUES
+(
+2,
+2,
+60000,
+9,
+SYSDATE,
+SYSDATE+120
+);
+
+INSERT INTO Loans VALUES
+(
+3,
+3,
+70000,
+10,
+SYSDATE,
+SYSDATE+15
+);
+
+INSERT INTO Loans VALUES
+(
+4,
+4,
+40000,
+8.5,
+SYSDATE,
+SYSDATE+200
+);
+
+INSERT INTO Loans VALUES
+(
+5,
+5,
+90000,
+7.5,
+SYSDATE,
+SYSDATE+25
+);
+
+INSERT INTO Employees VALUES
+(
+1,
+'Alice Johnson',
+'Manager',
+70000,
+'HR',
+TO_DATE('2015-06-15','YYYY-MM-DD')
+);
+
+INSERT INTO Employees VALUES
+(
+2,
+'Bob Brown',
+'Developer',
+60000,
+'IT',
+TO_DATE('2017-03-20','YYYY-MM-DD')
+);
+
+INSERT INTO Employees VALUES
+(
+3,
+'David Miller',
+'Tester',
+50000,
+'IT',
+TO_DATE('2019-02-10','YYYY-MM-DD')
+);
+
+INSERT INTO Employees VALUES
+(
+4,
+'Sophia Taylor',
+'HR Executive',
+55000,
+'HR',
+TO_DATE('2018-01-15','YYYY-MM-DD')
+);
+
+INSERT INTO Employees VALUES
+(
+5,
+'James Anderson',
+'Analyst',
+65000,
+'Finance',
+TO_DATE('2020-04-05','YYYY-MM-DD')
+);
+
+COMMIT;
