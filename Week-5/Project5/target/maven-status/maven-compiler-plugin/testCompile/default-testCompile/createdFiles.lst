@@ -1,0 +1,7 @@
+com\example\UserServiceTest.class
+com\example\CalculatorServiceTest.class
+com\example\ParameterizedCalculatorTest.class
+com\example\UserRepositoryTest.class
+com\example\UserControllerTest.class
+com\example\IntegrationTest.class
+com\example\ExceptionHandlingTest.class

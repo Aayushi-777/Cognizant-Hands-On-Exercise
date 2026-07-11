@@ -1,0 +1,5 @@
+com\example\mockito\User.class
+com\example\mockito\UserController.class
+com\example\mockito\UserService.class
+com\example\mockito\UserRepository.class
+com\example\mockito\MockitoApplication.class

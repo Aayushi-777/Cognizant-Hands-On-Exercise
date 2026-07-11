@@ -1,0 +1,9 @@
+19:02:17.835 [com.example.logging.LoggingExample.main()] ERROR com.example.logging.LoggingExample - This is an error message
+19:02:17.835 [com.example.logging.LoggingExample.main()] WARN  com.example.logging.LoggingExample - This is a warning message
+19:04:03.078 [com.example.logging.ParameterizedLogging.main()] INFO  c.e.logging.ParameterizedLogging - Name : Aayushi
+19:04:03.091 [com.example.logging.ParameterizedLogging.main()] INFO  c.e.logging.ParameterizedLogging - Age : 21
+19:04:03.091 [com.example.logging.ParameterizedLogging.main()] INFO  c.e.logging.ParameterizedLogging - Aayushi is 21 years old.
+19:04:21.621 [com.example.logging.AppenderExample.main()] DEBUG com.example.logging.AppenderExample - Debug Message
+19:04:21.631 [com.example.logging.AppenderExample.main()] INFO  com.example.logging.AppenderExample - Information Message
+19:04:21.631 [com.example.logging.AppenderExample.main()] WARN  com.example.logging.AppenderExample - Warning Message
+19:04:21.631 [com.example.logging.AppenderExample.main()] ERROR com.example.logging.AppenderExample - Error Message
