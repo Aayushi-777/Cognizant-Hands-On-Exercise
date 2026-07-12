@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+.column{
+    width:300px;
+    padding:20px;
+    border-right:4px solid green;
+    min-height:400px;
+}
+.column:last-child{
+    border-right:none;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    font-size:22px;
+}
+h3{
+    font-size:20px;
+}
+h4{
+    font-size:18px;
+    font-weight:bold;
+}
+p{
+    color:gray;
+}
